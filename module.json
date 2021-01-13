@@ -1,0 +1,24 @@
+{   
+   "name": "SharedData",   
+   "title": "Shared Data",   
+   "description": "Sharing data across worlds",   
+   "author": "Matt Evers",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.7.0",
+   "packs": [
+    {
+      "name": "cccclassfeatures",
+      "label": "CCC - Class Features",
+      "path": "packs/ccc-class-features.db",
+      "entity": "Item",
+      "module": "SharedData"
+    },
+	{
+      "name": "cccspells",
+      "label": "CCC - Spells",
+      "path": "packs/ccc-spells.db",
+      "entity": "Item",
+      "module": "SharedData"
+    }
+  ]
+ }
